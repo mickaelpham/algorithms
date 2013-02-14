@@ -8,7 +8,7 @@ public class MergeSort {
 		printArray(result);
 	}
 	
-	private static void printArray(int[] array) {
+	public static void printArray(int[] array) {
 		for (int i = 0; i < array.length; i++) {
 			if (i == 0) {
 				System.out.print(array[i]);
